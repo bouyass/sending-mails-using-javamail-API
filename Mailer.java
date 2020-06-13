@@ -63,6 +63,7 @@ public class Mailer {
 
 	
 	public static void main(String[] args) {
+		//don't forget to enbale  Less secure app access panel at this address https://myaccount.google.com/lesssecureapps
 		sendMessage("Test javamail","I'm testing java mail API","sende's address","reciever's address");
 	}
 }
